@@ -38,6 +38,8 @@ import io.netty.util.Attribute;
 
 /**
  * Log the channel status event.
+ *
+ * Netty DuplexHandler
  * 
  * @author jiangping
  * @version $Id: ConnectionEventHandler.java, v 0.1 Oct 10, 2016 2:07:24 PM tao Exp $

@@ -190,6 +190,7 @@ public class RpcServer extends RemotingServer {
         if (this.addressParser == null) {
             this.addressParser = new RpcAddressParser();
         }
+        // default false
         if (this.globalSwitch.isOn(GlobalSwitch.SERVER_MANAGE_CONNECTION_SWITCH)) {
             this.connectionEventHandler = new RpcConnectionEventHandler(globalSwitch);
             this.connectionManager = new DefaultConnectionManager(new RandomSelectStrategy());

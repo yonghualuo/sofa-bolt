@@ -6,7 +6,7 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="TEST_LOGGER" level="info"/>
+        <Logger name="TEST_LOGGER" level="debug"/>
         <Root level="ERROR">
             <AppenderRef ref="STDOUT"/>
         </Root>
